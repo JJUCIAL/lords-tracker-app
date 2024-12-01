@@ -42,9 +42,9 @@ module.exports = configure(function (/* ctx */) {
       target: {
         browser: ["es2019", "edge88", "firefox78", "chrome87", "safari13.1"],
         node: "node20",
-
-        publicPath: "/lords-tracker-app/", // Add your repository name here
       },
+      publicPath: "/lords-tracker-app/", // Add your repository name here
+
       meta: {
         title: "Lords of RNG Tracker V2.1",
         description: "Dynamic Table Lookup",
